@@ -1,5 +1,5 @@
 <template>
-  <h1>test</h1>
+  <h1 class="bg-gray-950">test</h1>
 </template>
 
 <script>
