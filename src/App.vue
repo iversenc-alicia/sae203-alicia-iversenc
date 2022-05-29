@@ -1,6 +1,31 @@
+<script>
+import { RouterLink, RouterView } from "vue-router";
+import Bouton from "./components/Bouton.vue";
+import ProgrammeArtistes from "./components/ProgrammeArtistes.vue";
+import CardRose from "./components/cards/CardRose.vue";
+import Footer from "./components/Footer.vue";
+export default {
+  components: { Bouton, ProgrammeArtistes, CardRose, Footer },
+};
+</script>
+
 <template>
-  <h1 class="bg-gray-950">test</h1>
+  <header class="text-gray-50">
+    <Header />
+    <nav class="bg-Primaire mb-5 w-screen flex-col space-x-6 pt-4">
+      <RouterLink to="/">Accueil</RouterLink>
+      <RouterLink to="/Artistes">Artistes</RouterLink>
+      <RouterLink to="/ArtisteSeul">Artiste</RouterLink>
+      <RouterLink to="/Concert">Concert</RouterLink>
+      <RouterLink to="/Festival">Festival</RouterLink>
+      <RouterLink to="/MentionsLegales">Mentions légales</RouterLink>
+      <br />
+      <RouterLink to="/Programmation">Programmation</RouterLink>
+    </nav>
+  </header>
+  <div></div>
+  <ProgrammeArtistes />
+  <CardRose />
+  <Footer />
 </template>
 
-<script>
-</script>
