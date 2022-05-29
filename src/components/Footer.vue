@@ -29,10 +29,10 @@
     </div>
     <Logo />
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-[50px]">
-      <SpotifyFooter />
-      <InstagramFooter />
-      <FacebookFooter />
-      <YoutubeFooter />
+      <a href="https://open.spotify.com/"><SpotifyFooter /></a>
+      <a href="https://www.instagram.com/"><InstagramFooter /></a>
+      <a href="https://www.facebook.com/"><FacebookFooter /></a>
+      <a href="https://www.youtube.com/"><YoutubeFooter /></a>
     </div>
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/Programmation">Programmation</a>
