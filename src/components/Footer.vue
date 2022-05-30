@@ -1,5 +1,5 @@
 <template>
-  <div class="w-100% relative flex h-5/6 flex-col items-center justify-center gap-[67px] overflow-hidden bg-cyan-600 py-8">
+  <div class="relative mt-40 flex h-5/6 w-full flex-col items-center justify-center gap-[67px] overflow-hidden bg-cyan-600 py-8">
     <div class="relative flex h-[94px] flex-shrink-0 flex-grow-0 flex-col items-center justify-center gap-[18px] overflow-hidden">
       <h3 class="flex-shrink-0 flex-grow-0 text-center text-xl font-bold text-gray-50">Inscris-toi à la Newsletter d’Electro Bancal !</h3>
 

@@ -32,7 +32,10 @@
       </div>
     </div>
 
-    <CardRose />
+    <div class="grid grid-cols-2">
+      <h2 class="my-auto mx-auto text-4xl font-bold">Découvrir le festival</h2>
+      <FestivalImage />
+    </div>
   </main>
 </template>
 
@@ -41,7 +44,8 @@ import ProgrammeArtistes from "/src/components/ProgrammeArtistes.vue";
 import CardRose from "/src/components/cards/CardRose.vue";
 import Bouton from "/src/components/Bouton.vue";
 import Baniere from "/src/components/Baniere.vue";
+import FestivalImage from "/src/components/FestivalImages.vue";
 export default {
-  components: { CardRose, ProgrammeArtistes, Bouton, Baniere },
+  components: { CardRose, ProgrammeArtistes, Bouton, Baniere, FestivalImage },
 };
 </script>

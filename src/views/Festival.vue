@@ -2,6 +2,8 @@
   <header>
     <baniere page="Le festival" />
   </header>
+
+  <h2 class="mb-10 ml-8 text-4xl font-bold">A propos de l'Electro Bancal</h2>
   <div class="mx-10">
     <div class="grid grid-cols-2">
       <p class="my-auto p-5 text-base">
@@ -17,6 +19,28 @@
         emblématique du Sud-Ouest : le lac de la Bancalié. Un lac entouré de relief. Pour profiter pleinement de ce cadre, nos équipes ont
         installé deux scènes : Une scène sur l’eau : la scène Flottante <br />
       </p>
+    </div>
+  </div>
+  <h2 class="mt-20 ml-8 mb-10 text-4xl font-bold">Le lac de la Bancalié</h2>
+  <div class="gp-5 mx-auto grid w-10/12 grid-cols-2">
+    <img class="" src="/public/img/bancalie1.webp" alt="" />
+    <img class="" src="/public/img/bancalie2.webp" alt="" />
+  </div>
+  <div class="mx-auto grid w-10/12 grid-cols-1">
+    <img src="/public/img/bancalie3.webp" alt="" />
+  </div>
+
+  <h2 class="ml-8 mt-20 mb-10 text-4xl font-bold">Deux scènes</h2>
+
+  <div class="mx-10 grid grid-cols-2">
+    <div>
+      <h3 class="mt-20 mb-5 text-center text-2xl">Scène Plage (scène terrestre)</h3>
+      <img class="" src="/public/img/festival-terrestre.webp" alt="" />
+    </div>
+
+    <div>
+      <h3 class="mx-auto mt-20 mb-5 text-center text-2xl">Scène Flottante (scène aquatique)</h3>
+      <img class="" src="/public/img/festival-flottant.webp" alt="" />
     </div>
   </div>
 </template>

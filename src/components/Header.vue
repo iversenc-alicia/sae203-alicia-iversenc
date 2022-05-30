@@ -7,9 +7,7 @@
         </div>
         <div class="w-100% h-6">
           <div class="absolute left-[244.5px] top-[35.09px] flex w-[1160px] items-center justify-between">
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Accueil"
-              >Electro Bancal</RouterLink
-            >
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/">Electro Bancal</RouterLink>
             <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Artistes"
               >Artistes</RouterLink
             >
@@ -19,7 +17,7 @@
             <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Festival"
               >Festival</RouterLink
             >
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Festival">Concert</RouterLink>
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Concert">Concerts</RouterLink>
             <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-gray-50" to="/Contact">Contact</RouterLink>
           </div>
         </div>
