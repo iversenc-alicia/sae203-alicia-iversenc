@@ -1,4 +1,7 @@
 <template>
+  <header>
+    <baniere page="Accueil" />
+  </header>
   <main class="mx-12">
     <div class="mb-28 grid w-full grid-cols-4">
       <div class="float-left my-auto mx-auto">
@@ -37,7 +40,8 @@
 import ProgrammeArtistes from "/src/components/ProgrammeArtistes.vue";
 import CardRose from "/src/components/cards/CardRose.vue";
 import Bouton from "/src/components/Bouton.vue";
+import Baniere from "/src/components/Baniere.vue";
 export default {
-  components: { CardRose, ProgrammeArtistes, Bouton },
+  components: { CardRose, ProgrammeArtistes, Bouton, Baniere },
 };
 </script>

@@ -1,4 +1,7 @@
 <template>
+  <header>
+    <baniere page="Programmation" />
+  </header>
   <h2 class="ml-10 mb-8 mt-14 text-4xl">Vendredi 8 Juillet</h2>
   <div class="mx-10 grid grid-cols-4">
     <div>
@@ -50,7 +53,9 @@
 
 <script>
 import CardRose from "../components/cards/CardRose.vue";
+import Baniere from "/src/components/Baniere.vue";
+
 export default {
-  components: { CardRose },
+  components: { CardRose, Baniere },
 };
 </script>

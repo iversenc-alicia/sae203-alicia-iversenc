@@ -4,24 +4,26 @@
       <h3 class="flex-shrink-0 flex-grow-0 text-center text-xl font-bold text-gray-50">Inscris-toi à la Newsletter d’Electro Bancal !</h3>
 
       <div class="flex flex-grow items-start justify-start gap-5 self-stretch overflow-hidden">
-        <div
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700" for="grid-first-name"> Adresse mail </label>
+        <input
           class="
-            relative
-            flex flex-shrink-0 flex-grow-0
-            items-center
-            justify-start
-            gap-2.5
-            overflow-hidden
-            rounded-[3px]
-            border border-gray-400
-            bg-gray-50
-            py-4
-            pl-[21px]
-            pr-[200px]
+            mb-3
+            block
+            w-full
+            appearance-none
+            rounded-3xl
+            border border-orange-500
+            bg-yellow-100
+            py-3
+            px-4
+            leading-tight
+            text-gray-700
+            focus:bg-yellow-200 focus:outline-none
           "
-        >
-          <p class="flex-shrink-0 flex-grow-0 text-left text-xs font-medium text-gray-400">MonMail@exemple.com</p>
-        </div>
+          id="grid-first-name"
+          type="text"
+          placeholder="adressemail@mail.com"
+        />
         <div class="relative flex flex-shrink-0 flex-grow-0 items-start justify-start gap-2.5 rounded-[3px] bg-fuchsia-900 px-3 py-2">
           <p class="flex-shrink-0 flex-grow-0 text-center text-2xl font-semibold text-slate-50">Je m’inscris !</p>
         </div>

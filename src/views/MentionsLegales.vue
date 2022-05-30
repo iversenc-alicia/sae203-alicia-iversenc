@@ -1,4 +1,7 @@
 <template>
+<header>
+    <baniere page="Mentiosn légales" />
+</header>
   <div class="relative flex w-3/4 flex-col items-start justify-start gap-10 text-gray-50">
     <h2 class="font-medium">Mentions légales</h2>
     <p class="text-base text-gray-50">
@@ -82,3 +85,10 @@
     </p>
   </div>
 </template>
+
+<script>
+import Baniere from "/src/components/Baniere.vue";
+export default {
+  components: { Baniere },
+};
+</script>
