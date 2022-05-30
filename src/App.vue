@@ -4,8 +4,9 @@ import Bouton from "./components/Bouton.vue";
 import ProgrammeArtistes from "./components/ProgrammeArtistes.vue";
 import CardRose from "./components/cards/CardRose.vue";
 import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
 export default {
-  components: { Bouton, ProgrammeArtistes, CardRose, Footer },
+  components: { Bouton, ProgrammeArtistes, CardRose, Footer, Header, RouterView, RouterLink },
 };
 </script>
 
@@ -23,9 +24,12 @@ export default {
       <RouterLink to="/Programmation">Programmation</RouterLink>
     </nav>
   </header>
-  <div></div>
-  <ProgrammeArtistes />
-  <CardRose />
-  <Footer />
+  <main>
+    <RouterView />
+  </main>
+
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
