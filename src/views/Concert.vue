@@ -11,7 +11,7 @@
       <p class="my-auto mx-auto pt-5 text-base">
         On ne le présente plus! Retrouvez Martin Garrix le samedi 9 Juillet à 14h30 sur la scène Plage du festival Electro Bancal.
       </p>
-      <a class="my-20 mr-6 flex justify-end text-2xl font-semibold" href="./Artistes.vue">→ Voir tous la page de l'artiste</a>
+      <a class="my-20 mr-6 flex justify-end text-2xl font-semibold" href="./ArtisteSeul">→ Voir la page de l'artiste</a>
     </div>
 
     <div class="mx-auto">

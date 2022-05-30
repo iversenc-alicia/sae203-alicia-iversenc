@@ -23,14 +23,25 @@
         </defs>
       </svg>
       <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-        <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">ARTISTE 1</span><br /><span
-          class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-          >ARTISTE 2</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">ARTISTE 3</span><br /><span
-          class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-          >ARTISTE 4</span
-        >
+        <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste1 }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste2 }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste3 }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste4 }}</span>
       </p>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  /* Les "props" servent à définir les "attributs" qui seront passés a l'instance du composant pour le personnalisé.
+  Chaque "props" a un nom et un type */
+  props: {
+    artiste1: String,
+    artiste2: String,
+    artiste3: String,
+    artiste4: String,
+  },
+  components: {},
+};
+</script>
