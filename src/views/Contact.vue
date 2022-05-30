@@ -10,7 +10,7 @@
       <p>electrobancal@gmail.com</p>
       <p>Retenue de la Bancalié</p>
       <p>81120 Terre-de-Bancalié</p>
-      <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-[50px]">
+      <div class="relative mt-10 flex flex-shrink-0 flex-grow-0 items-center justify-center gap-10">
         <svg
           width="30"
           height="30"
@@ -43,6 +43,8 @@
       </div>
     </div>
   </div>
+
+  <h2 class="mb-7 mt-20 text-4xl font-bold">Formulaire de contact</h2>
 </template>
 
 <script>
