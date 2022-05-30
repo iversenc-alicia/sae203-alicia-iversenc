@@ -44,6 +44,8 @@
       <card-rose nom="Nicky Romero" scene=" Flottante" heure="20h30" image="/img/nickyromero-fonce.webp" />
     </div>
   </div>
+
+  <a class="my-20 mr-6 flex justify-end text-2xl font-semibold" href="./Artistes.vue">→ Voir tous les artistes</a>
 </template>
 
 <script>
