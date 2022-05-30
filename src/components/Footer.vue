@@ -4,21 +4,21 @@
       <h3 class="flex-shrink-0 flex-grow-0 text-center text-xl font-bold text-gray-50">Inscris-toi à la Newsletter d’Electro Bancal !</h3>
 
       <div class="flex flex-grow items-start justify-start gap-5 self-stretch overflow-hidden">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700" for="grid-first-name"> Adresse mail </label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700" for="grid-first-name"></label>
         <input
           class="
             mb-3
             block
             w-full
             appearance-none
-            rounded-3xl
-            border border-orange-500
-            bg-yellow-100
+            rounded-lg
+            border border-gray-500
+            bg-slate-50
             py-3
             px-4
             leading-tight
-            text-gray-700
-            focus:bg-yellow-200 focus:outline-none
+            text-gray-500
+            focus:bg-slate-300 focus:outline-none
           "
           id="grid-first-name"
           type="text"
