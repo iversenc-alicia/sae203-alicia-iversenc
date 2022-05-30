@@ -2,11 +2,10 @@
 import { RouterLink, RouterView } from "vue-router";
 import Bouton from "./components/Bouton.vue";
 import ProgrammeArtistes from "./components/ProgrammeArtistes.vue";
-import CardRose from "./components/cards/CardRose.vue";
 import Footer from "./components/Footer.vue";
 import Header from "./components/Header.vue";
 export default {
-  components: { Bouton, ProgrammeArtistes, CardRose, Footer, Header, RouterView, RouterLink },
+  components: { Bouton, ProgrammeArtistes, Footer, Header, RouterView, RouterLink },
 };
 </script>
 
