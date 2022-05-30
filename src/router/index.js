@@ -12,13 +12,13 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', name: 'Accueil', component: Accueil },
-    { path: '/', name: 'Artistes', component: Artistes },
-    { path: '/', name: 'ArtisteSeul', component: ArtisteSeul },
-    { path: '/', name: 'Concert', component: Concert },
-    { path: '/', name: 'Contact', component: Contact },
-    { path: '/', name: 'Festival', component: Festival },
-    { path: '/', name: 'MestionsLegales', component: MentionsLegales },
-    { path: '/', name: 'Programmation', component: Programmation },
+    { path: '/Artistes', name: 'Artistes', component: Artistes },
+    { path: '/ArtisteSeul', name: 'ArtisteSeul', component: ArtisteSeul },
+    { path: '/Concert', name: 'Concert', component: Concert },
+    { path: '/Contact', name: 'Contact', component: Contact },
+    { path: '/Festival', name: 'Festival', component: Festival },
+    { path: '/MentionsLegales', name: 'MentionsLegales', component: MentionsLegales },
+    { path: '/Programmation', name: 'Programmation', component: Programmation },
 
 
   ]
