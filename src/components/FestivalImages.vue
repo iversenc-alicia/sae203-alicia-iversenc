@@ -1,8 +1,8 @@
 <template>
-  <div class="relative h-[400px] w-[847px]">
-    <div class="absolute left-[-1px] top-[-1px] flex h-[400px] w-[847px] items-start justify-start">
-      <img src="image-11.png" class="flex-grow self-stretch object-cover" /><img
-        src="image-13.jpeg"
+  <div class="relative h-[400px] w-3/4">
+    <div class="absolute flex h-[400px] w-[847px] items-start justify-start">
+      <img src="/public/img/accueil1.webp" class="flex-grow self-stretch object-cover" /><img
+        src="/public/img/accueil2.webp"
         class="flex-grow self-stretch object-cover"
       />
     </div>
