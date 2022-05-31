@@ -2,7 +2,7 @@
   <header>
     <baniere page="Accueil" />
   </header>
-  <main class="mx-auto items-center">
+  <main class="mx-5 items-center lg:mx-16 2xl:mx-28">
     <div class="mb-28 grid w-full grid-cols-1 lg:grid-cols-4">
       <div class="my-auto mx-auto ml-auto">
         <h2 class="text-4xl font-bold">3 artistes</h2>
@@ -15,119 +15,38 @@
     </div>
     <a href="./Artistes"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir tous les artistes"> </bouton></a>
 
-    <div class="grid grid-cols-1 text-4xl lg:grid-cols-4">
-      <div class="my-auto mr-auto">
-        <h2 class="font-bold text-gray-50">Un programme complet</h2>
-      </div>
-
-      <div class="pb-2 text-center text-2xl font-semibold">
-        <h3>Vendredi 8 juillet</h3>
-        <div class="relative flex h-[245px] w-[300px] flex-col items-start justify-start gap-2.5">
-          <div class="flex-shrink-0 flex-grow-0 self-stretch">
-            <svg
-              width="300"
-              height="245"
-              viewBox="0 0 300 245"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="absolute left-[-0.5px] top-[-0.5px]"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <path
-                d="M0 1.07985C0 0.49735 0.495883 0.0381302 1.07667 0.0827888L299.077 22.9971C299.598 23.0371 300 23.4716 300 23.9941V243.92C300 244.503 299.504 244.962 298.923 244.917L0.923324 221.999C0.40232 221.959 0 221.524 0 221.002L0 1.07985Z"
-                fill="url(#paint0_linear_1111_843)"
-              ></path>
-              <defs>
-                <linearGradient id="paint0_linear_1111_843" x1="150" y1="0" x2="150" y2="245" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#DB2777"></stop>
-                  <stop offset="0.560417" stop-color="#DB2777" stop-opacity="0.517708"></stop>
-                  <stop offset="1" stop-color="#DB2777" stop-opacity="0"></stop>
-                </linearGradient>
-              </defs>
-            </svg>
-            <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-              <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">Sikdope</span><br />Joel Corry<span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-              ></span
-              ><br />Timmy Trumpet<span class="w-[300px] text-center text-2xl font-semibold text-gray-50"></span><br /><span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-                >Don diablo</span
-              >
-            </p>
+    <div class="grid grid-cols-1 justify-items-center gap-10 text-4xl lg:grid-cols-4">
+      <h2 class="my-auto mx-auto font-bold">Un programme complet</h2>
+      <div>
+        <h3 class="mb-10 text-center">Vendredi 8 juillet</h3>
+        <div class="max-w-lg skew-y-12 bg-gradient-to-b from-pink-600 to-gray-950 object-contain px-5 py-10 text-center">
+          <div class="-skew-y-12">
+            <p>Joel Corry</p>
+            <p>Timmy Trumpet</p>
+            <p>Don Diablo</p>
+            <p>Sikdope</p>
           </div>
         </div>
       </div>
-      <div class="text-center text-2xl font-semibold">
-        <h3>Samedi 9 juillet</h3>
-        <div class="relative flex h-[245px] w-[300px] flex-col items-start justify-start gap-2.5">
-          <div class="flex-shrink-0 flex-grow-0 self-stretch">
-            <svg
-              width="300"
-              height="245"
-              viewBox="0 0 300 245"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="absolute left-[-0.5px] top-[-0.5px]"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <path
-                d="M0 1.07985C0 0.49735 0.495883 0.0381302 1.07667 0.0827888L299.077 22.9971C299.598 23.0371 300 23.4716 300 23.9941V243.92C300 244.503 299.504 244.962 298.923 244.917L0.923324 221.999C0.40232 221.959 0 221.524 0 221.002L0 1.07985Z"
-                fill="url(#paint0_linear_1111_843)"
-              ></path>
-              <defs>
-                <linearGradient id="paint0_linear_1111_843" x1="150" y1="0" x2="150" y2="245" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#DB2777"></stop>
-                  <stop offset="0.560417" stop-color="#DB2777" stop-opacity="0.517708"></stop>
-                  <stop offset="1" stop-color="#DB2777" stop-opacity="0"></stop>
-                </linearGradient>
-              </defs>
-            </svg>
-            <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-              <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">Martin Garrix</span><br />Gabry Ponte<span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-              ></span
-              ><br />DJ Snake<span class="w-[300px] text-center text-2xl font-semibold text-gray-50"></span><br /><span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-                >Showtek</span
-              >
-            </p>
+      <div>
+        <h3 class="mb-10 text-center">Samedi 9 juillet</h3>
+        <div class="max-w-lg skew-y-12 bg-gradient-to-b from-pink-600 to-gray-950 object-contain px-5 py-10 text-center">
+          <div class="-skew-y-12">
+            <p>Joel Corry</p>
+            <p>Timmy Trumpet</p>
+            <p>Don Diablo</p>
+            <p>Sikdope</p>
           </div>
         </div>
       </div>
-      <div class="text-center text-2xl font-semibold">
-        <h3>Dimanche 10 juillet</h3>
-        <div class="relative flex h-[245px] w-[300px] flex-col items-start justify-start gap-2.5">
-          <div class="flex-shrink-0 flex-grow-0 self-stretch">
-            <svg
-              width="300"
-              height="245"
-              viewBox="0 0 300 245"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="absolute left-[-0.5px] top-[-0.5px]"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <path
-                d="M0 1.07985C0 0.49735 0.495883 0.0381302 1.07667 0.0827888L299.077 22.9971C299.598 23.0371 300 23.4716 300 23.9941V243.92C300 244.503 299.504 244.962 298.923 244.917L0.923324 221.999C0.40232 221.959 0 221.524 0 221.002L0 1.07985Z"
-                fill="url(#paint0_linear_1111_843)"
-              ></path>
-              <defs>
-                <linearGradient id="paint0_linear_1111_843" x1="150" y1="0" x2="150" y2="245" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#DB2777"></stop>
-                  <stop offset="0.560417" stop-color="#DB2777" stop-opacity="0.517708"></stop>
-                  <stop offset="1" stop-color="#DB2777" stop-opacity="0"></stop>
-                </linearGradient>
-              </defs>
-            </svg>
-            <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-              <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">Marshmello</span><br />KSHMR<span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-              ></span
-              ><br />Mike Candyst<span class="w-[300px] text-center text-2xl font-semibold text-gray-50"></span><br /><span
-                class="w-[300px] text-center text-2xl font-semibold text-gray-50"
-                >Nicky Romero</span
-              >
-            </p>
+      <div>
+        <h3 class="mb-10 text-center">Dimanche 10 juillet</h3>
+        <div class="max-w-lg skew-y-12 bg-gradient-to-b from-pink-600 to-gray-950 object-contain px-5 py-10 text-center">
+          <div class="-skew-y-12">
+            <p>Joel Corry</p>
+            <p>Timmy Trumpet</p>
+            <p>Don Diablo</p>
+            <p>Sikdope</p>
           </div>
         </div>
       </div>
