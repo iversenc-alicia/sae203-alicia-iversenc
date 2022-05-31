@@ -22,16 +22,13 @@
   <h1 class="mt-10 text-2xl font-semibold">Composants</h1>
   <div class="grid grid-cols-7">
     <card-rose nom="Marshmello" scene="39 040 156 auditeurs par mois" image="/img/marshmello-fonce.webp" />
-    <Baniere />
-    <ReseauxArtiste />
   </div>
 </template>
 
 <script>
+import Baniere from "../components/Baniere.vue";
 import CardRose from "../components/cards/CardRose.vue";
-import Baniere from "/src/components/Baniere.vue";
-import ReseauxArtiste from "/src/components/cards/ReseauxArtiste.vue";
 export default {
-  components: { Baniere, ReseauxArtiste, CardRose },
+  components: { Baniere, CardRose },
 };
 </script>

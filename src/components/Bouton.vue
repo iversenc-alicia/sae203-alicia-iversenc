@@ -1,6 +1,6 @@
 <template>
-  <div class="relative flex max-w-md justify-center gap-2.5 rounded-[3px] border border-pink-600 px-3 py-2">
-    <p class="flex-shrink-0 flex-grow-0 text-center text-2xl font-semibold text-pink-600">{{ nom }}</p>
+  <div class="relative flex max-w-sm justify-center gap-2.5 rounded-[3px] border border-pink-600 px-3 py-2">
+    <p class="max-w-sm flex-shrink-0 flex-grow-0 text-center text-sm font-semibold text-pink-600 lg:text-2xl">{{ nom }}</p>
   </div>
 </template>
 

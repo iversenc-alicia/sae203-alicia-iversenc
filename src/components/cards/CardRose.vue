@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-96 bg-gradient-to-b from-pink-600 to-gray-950">
+  <div class="w-96 max-w-xs bg-gradient-to-b from-pink-600 to-gray-950">
     <div class="container mx-auto">
       <div class="block">
         <div class="flex flex-col">

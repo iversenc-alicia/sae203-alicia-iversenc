@@ -4,7 +4,7 @@
   </header>
   <main class="mx-5 items-center lg:mx-16 2xl:mx-28">
     <div class="mb-28 grid w-full grid-cols-1 lg:grid-cols-4">
-      <div class="my-auto mx-auto ml-auto">
+      <div class="mx-auto mb-10 ml-auto sm:my-auto">
         <h2 class="text-4xl font-bold">3 artistes</h2>
         <h2 class="text-4xl font-bold">3 jours</h2>
         <h2 class="text-4xl font-bold">2 scènes</h2>
@@ -32,10 +32,10 @@
         <h3 class="mb-10 text-center">Samedi 9 juillet</h3>
         <div class="max-w-lg skew-y-12 bg-gradient-to-b from-pink-600 to-gray-950 object-contain px-5 py-10 text-center">
           <div class="-skew-y-12">
-            <p>Joel Corry</p>
-            <p>Timmy Trumpet</p>
-            <p>Don Diablo</p>
-            <p>Sikdope</p>
+            <p>Martin Garrix</p>
+            <p>Gabry Ponte</p>
+            <p>DJ SNake</p>
+            <p>Showtek</p>
           </div>
         </div>
       </div>
@@ -43,10 +43,10 @@
         <h3 class="mb-10 text-center">Dimanche 10 juillet</h3>
         <div class="max-w-lg skew-y-12 bg-gradient-to-b from-pink-600 to-gray-950 object-contain px-5 py-10 text-center">
           <div class="-skew-y-12">
-            <p>Joel Corry</p>
-            <p>Timmy Trumpet</p>
-            <p>Don Diablo</p>
-            <p>Sikdope</p>
+            <p>Marshmello</p>
+            <p>KSHMR</p>
+            <p>Mike Candys</p>
+            <p>Nicky Romero</p>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
     <a href="./Programmation"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute la programmation"> </bouton></a>
 
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <h2 class="my-auto mx-auto text-4xl font-bold">Découvrir le festival</h2>
+      <h2 class="mx-auto mb-10 text-4xl font-bold lg:my-auto">Découvrir le festival</h2>
       <img src="/public/img/accueil-tagline.webp" alt="" />
     </div>
     <a href="./Festival"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute le concept"> </bouton></a>

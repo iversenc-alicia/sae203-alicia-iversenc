@@ -39,7 +39,7 @@
     </div>
 
     <div>
-      <h3 class="mx-auto mt-20 mb-5 text-center text-2xl">Scène Flottante (scène aquatique)</h3>
+      <h3 class="mx-auto mt-5 mb-5 text-center text-2xl">Scène Flottante (scène aquatique)</h3>
       <img class="" src="/public/img/festival-flottant.webp" alt="" />
     </div>
   </div>
