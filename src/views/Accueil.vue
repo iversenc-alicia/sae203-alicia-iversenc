@@ -2,9 +2,9 @@
   <header>
     <baniere page="Accueil" />
   </header>
-  <main class="mx-12">
-    <div class="mb-28 grid w-full grid-cols-4">
-      <div class="float-left my-auto mx-auto">
+  <main class="mx-auto items-center">
+    <div class="mb-28 grid w-full grid-cols-1 lg:grid-cols-4">
+      <div class="my-auto mx-auto ml-auto">
         <h2 class="text-4xl font-bold">3 artistes</h2>
         <h2 class="text-4xl font-bold">3 jours</h2>
         <h2 class="text-4xl font-bold">2 scènes</h2>
@@ -13,10 +13,10 @@
       <img src="/public/img/djsnake-clair.webp" class="flex-grow self-stretch object-cover" />
       <img src="/public/img/marshmello-clair.webp" class="flex-grow self-stretch object-cover" />
     </div>
-    <a href="./Artistes"><bouton class="mt-5 mb-10" nom="Découvrir tous les artistes"> </bouton></a>
+    <a href="./Artistes"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir tous les artistes"> </bouton></a>
 
-    <div class="grid grid-cols-4 text-4xl">
-      <div class="float-left my-auto mx-auto">
+    <div class="grid grid-cols-1 text-4xl lg:grid-cols-4">
+      <div class="my-auto mr-auto">
         <h2 class="font-bold text-gray-50">Un programme complet</h2>
       </div>
 
@@ -83,7 +83,7 @@
               </defs>
             </svg>
             <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-              <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">MArtin Garrix</span><br />Gabry Ponte<span
+              <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">Martin Garrix</span><br />Gabry Ponte<span
                 class="w-[300px] text-center text-2xl font-semibold text-gray-50"
               ></span
               ><br />DJ Snake<span class="w-[300px] text-center text-2xl font-semibold text-gray-50"></span><br /><span
@@ -132,13 +132,13 @@
         </div>
       </div>
     </div>
-    <a href="./Programmation"><bouton class="mt-5 mb-10" nom="Découvrir toute la programmation"> </bouton></a>
+    <a href="./Programmation"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute la programmation"> </bouton></a>
 
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
       <h2 class="my-auto mx-auto text-4xl font-bold">Découvrir le festival</h2>
-      <FestivalImage />
+      <img src="/public/img/accueil-tagline.webp" alt="" />
     </div>
-    <a href="./Festival"><bouton class="mt-5 mb-10" nom="Découvrir toute le concept"> </bouton></a>
+    <a href="./Festival"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute le concept"> </bouton></a>
   </main>
 </template>
 
@@ -147,8 +147,8 @@ import ProgrammeArtistes from "/src/components/ProgrammeArtistes.vue";
 import CardRose from "/src/components/cards/CardRose.vue";
 import Bouton from "/src/components/Bouton.vue";
 import Baniere from "/src/components/Baniere.vue";
-import FestivalImage from "/src/components/FestivalImages.vue";
+import HeaderGrand from "/src/components/HeaderGrand.vue";
 export default {
-  components: { CardRose, ProgrammeArtistes, Bouton, Baniere, FestivalImage },
+  components: { CardRose, ProgrammeArtistes, Bouton, Baniere, HeaderGrand },
 };
 </script>

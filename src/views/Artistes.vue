@@ -2,47 +2,47 @@
   <header>
     <baniere page="Programmation" />
   </header>
-  <main class="mx-7">
+  <main class="mx-auto">
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Les incontournables</h2>
-    <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+    <div class="mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div>
-        <card-rose nom="Martin Garrix" scene=" Plage" heure="14h30" image="/img/martingarrix-fonce.webp" />
+        <card-rose nom="Martin Garrix" scene="écoutes sur Spotify" image="/img/martingarrix-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Gabry Ponte" scene=" Flottante" heure="14h30" image="/img/gabryponte-fone.webp" />
+        <card-rose nom="Gabry Ponte" scene="écoutes sur Spotify" image="/img/gabryponte-fone.webp" />
       </div>
       <div>
-        <card-rose nom="DJ Snake" scene=" Plage" heure="20h30" image="/img/djsnake-fonce.webp" />
+        <card-rose nom="DJ Snake" scene="écoutes sur Spotify" image="/img/djsnake-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Showtek" scene=" Flottante" heure="20h30" image="/img/showtek-fonce.webp" />
+        <card-rose nom="Showtek" scene=" Floécoutes sur Spotify" image="/img/showtek-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Timmy Trumpet" scene=" Plage" heure="14h30" image="/img/timmytrumpet-fonce.webp" />
+        <card-rose nom="Timmy Trumpet" scene="écoutes sur Spotify" image="/img/timmytrumpet-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Joel Corry" scene=" Flottante" heure="14h30" image="/img/joelcorry-fonce.webp" />
+        <card-rose nom="Joel Corry" scene="écoutes sur sSpotify" image="/img/joelcorry-fonce.webp" />
       </div>
     </div>
-    <h2 class="ml-10 mb-8 mt-14 text-4xl">Dimanche 10 Juillet</h2>
-    <div class="mx-10 grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+    <h2 class="ml-10 mb-8 mt-14 text-4xl">A ne pas rater</h2>
+    <div class="mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div>
-        <card-rose nom="Don Diablo" scene=" Plage" heure="20h30" image="/img/djsnake-fonce.webp" />
+        <card-rose nom="Don Diablo" scene="écoutes sur Spotify" image="/img/djsnake-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Sikdope" scene=" Flottante" heure="20h30" image="/img/sikdope-fonce.webp" />
+        <card-rose nom="Sikdope" scene="écoutes sur Spotify" image="/img/sikdope-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="KSHMR" scene=" Plage" heure="14h30" image="/img/kshmr-fonce.jpg" />
+        <card-rose nom="KSHMR" scene="écoutes sur Spotify" image="/img/kshmr-fonce.jpg" />
       </div>
       <div>
-        <card-rose nom="Marshmello" scene=" Flottante" heure="14h30" image="/img/marshmello-fonce.webp" />
+        <card-rose nom="Marshmello" scene="écoutes sur Spotify" image="/img/marshmello-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Mike Candys" scene=" Plage" heure="20h30" image="/img/mikecandys-fonce.webp" />
+        <card-rose nom="Mike Candys" scene="écoutes sur Spotify" image="/img/mikecandys-fonce.webp" />
       </div>
       <div>
-        <card-rose nom="Nicky Romero" scene=" Flottante" heure="20h30" image="/img/nickyromero-fonce.webp" />
+        <card-rose nom="Nicky Romero" scene="écoutes sur Spotify" image="/img/nickyromero-fonce.webp" />
       </div>
     </div>
   </main>

@@ -13,31 +13,20 @@ export default {
 </script>
 
 <template>
-  <div class="relative h-[406px]">
-    <div class="absolute top-[197px] flex h-52 w-[300px] flex-col items-center justify-center gap-2.5 overflow-hidden">
-      <div
-        class="
-          relative
-          flex flex-grow flex-col
-          items-center
-          justify-center
-          gap-3
-          self-stretch
-          overflow-hidden
-          bg-gradient-to-b
-          from-pink-600
-          to-pink-600/0
-          px-[73px]
-          py-[50px]
-        "
-      >
-        <p class="flex-shrink-0 flex-grow-0 text-center text-2xl font-semibold text-gray-50">{{ nom }}</p>
-        <p class="flex-shrink-0 flex-grow-0 text-center text-xl text-gray-50">scene{{ scene }}</p>
-        <p class="flex-shrink-0 flex-grow-0 text-center text-base font-medium text-gray-50">{{ heure }}</p>
+  <div class="w-96 bg-gradient-to-b from-pink-600 to-gray-950">
+    <div class="container mx-auto">
+      <div class="block">
+        <div class="flex flex-col">
+          <div class="p-4">
+            <img class="" :src="image" alt="artiste" />
+          </div>
+          <figcaption class="p-4 text-center">
+            <h3 class="py-1 text-2xl font-semibold">{{ nom }}</h3>
+            <h4 class="py-1 text-xl">{{ heure }}</h4>
+            <p class="py-1 text-base">{{ scene }}</p>
+          </figcaption>
+        </div>
       </div>
-    </div>
-    <div class="absolute flex h-[226px] w-[300px] flex-col items-start justify-start gap-2.5 overflow-hidden">
-      <img :src="image" alt="artiste" width="800" height="450" />
     </div>
   </div>
 </template>
