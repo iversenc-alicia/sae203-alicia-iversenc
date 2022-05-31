@@ -5,7 +5,7 @@
   <h2 class="mb-7 ml-7 text-4xl font-bold">Vous souhaitez contacter Electro Bancal ?</h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2">
-    <img src="/public/img/map.webp" />
+    <img class="px-5" src="/public/img/map.webp" />
     <div class="mx-auto mt-5 text-lg">
       <p>electrobancal@gmail.com</p>
       <p>Retenue de la Bancalié</p>

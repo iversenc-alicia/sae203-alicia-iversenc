@@ -22,11 +22,11 @@
           </linearGradient>
         </defs>
       </svg>
-      <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-        <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ nom }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ date }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ lieu }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ adresse }}</span>
+      <p class="top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
+        <span class="">{{ nom }}</span
+        ><br /><span class="">{{ date }}</span
+        ><br /><span class="">{{ lieu }}</span
+        ><br /><span class="">{{ adresse }}</span>
       </p>
     </div>
   </div>
