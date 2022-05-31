@@ -2,11 +2,11 @@
   <header>
     <baniere page="Contact" />
   </header>
-  <h2 class="mb-7 text-4xl font-bold">Vous souhaitez contacter Electro Bancal ?</h2>
+  <h2 class="mb-7 ml-7 text-4xl font-bold">Vous souhaitez contacter Electro Bancal ?</h2>
 
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-1 sm:grid-cols-2">
     <img src="/public/img/map.webp" />
-    <div class="mx-auto text-lg">
+    <div class="mx-auto mt-5 text-lg">
       <p>electrobancal@gmail.com</p>
       <p>Retenue de la Bancalié</p>
       <p>81120 Terre-de-Bancalié</p>
@@ -43,13 +43,14 @@
       </div>
     </div>
   </div>
-
-  <h2 class="mb-7 mt-20 text-4xl font-bold">Formulaire de contact</h2>
+  <h2 class="mb-7 mt-20 ml-7 text-4xl font-bold">Formulaire de contact</h2>
+  <Form />
 </template>
 
 <script>
 import Baniere from "/src/components/Baniere.vue";
+import Form from "/src/components/Form.vue";
 export default {
-  components: { Baniere },
+  components: { Baniere, Form },
 };
 </script>
