@@ -3,7 +3,7 @@
     <img class="mx-auto w-3/4" src="/public/img/martingarrix-clair.webp" alt="Martin Garrix" />
   </header>
 
-  <div class="mx-auto mt-10 grid w-3/4 grid-cols-2">
+  <div class="mx-auto mt-10 grid w-3/4 grid-cols-1 sm:grid-cols-2">
     <div class="mx-auto content-center">
       <h2 class="text-center text-4xl font-bold">MARTIN GARRIX</h2>
       <h3 class="text-center text-lg font-semibold">EDM , electro house, deep house, future bass</h3>
@@ -22,22 +22,18 @@
       </p>
     </div>
 
-    <div class="mx-auto">
-      <ReseauxArtiste />
-    </div>
+    <div class="mx-auto"><class:"" ReseauxArtiste /></div>
   </div>
 
   <a href="https://www.youtube.com/watch?v=SpIgOm5vFkE/" target="_blank"
     ><img src="/public/img/youtube.webp" border="0" alt="apperçu vidéo Youtube" class="mx-auto mt-20 w-3/4"
   /></a>
 
-  <div class="mx-auto mt-20 grid w-10/12 grid-cols-3">
+  <div class="mx-auto mt-20 grid w-10/12 grid-cols-1 lg:grid-cols-3">
     <img class="p-3" src="/public/img/martin-1.webp" alt="" />
     <img class="p-3" src="/public/img/martin-2.webp" alt="" />
     <img class="p-3" src="/public/img/martin-3.webp" alt="" />
   </div>
-
-  <h2 class="ml-20 text-4xl font-bold">Vour les autres artistes</h2>
 </template>
 
 <script>
