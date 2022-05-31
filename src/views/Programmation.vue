@@ -4,7 +4,7 @@
   </header>
   <main class="mx-7">
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Vendredi 8 Juillet</h2>
-    <div class="mx-10 grid grid-cols-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div>
         <card-rose nom="Martin Garrix" scene=" Plage" heure="14h30" image="/img/martingarrix-fonce.webp" />
       </div>
@@ -19,7 +19,7 @@
       </div>
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Samedi 9 Juillet</h2>
-    <div class="mx-10 grid grid-cols-4">
+    <div class="mx-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div>
         <card-rose nom="Timmy Trumpet" scene=" Plage" heure="14h30" image="/img/timmytrumpet-fonce.webp" />
       </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Dimanche 10 Juillet</h2>
-    <div class="mx-10 grid grid-cols-4">
+    <div class="mx-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <div>
         <card-rose nom="KSHMR" scene=" Plage" heure="14h30" image="/img/kshmr-fonce.jpg" />
       </div>

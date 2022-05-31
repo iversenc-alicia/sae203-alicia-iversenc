@@ -23,10 +23,10 @@
         </defs>
       </svg>
       <p class="absolute left-0 top-[59px] w-[300px] text-center text-2xl font-semibold text-gray-50">
-        <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste1 }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste2 }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste3 }}</span
-        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ artiste4 }}</span>
+        <span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ nom }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ date }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ lieu }}</span
+        ><br /><span class="w-[300px] text-center text-2xl font-semibold text-gray-50">{{ adresse }}</span>
       </p>
     </div>
   </div>
@@ -37,10 +37,10 @@ export default {
   /* Les "props" servent à définir les "attributs" qui seront passés a l'instance du composant pour le personnalisé.
   Chaque "props" a un nom et un type */
   props: {
-    artiste1: String,
-    artiste2: String,
-    artiste3: String,
-    artiste4: String,
+    nom: String,
+    date: String,
+    lieu: String,
+    adresse: String,
   },
   components: {},
 };
