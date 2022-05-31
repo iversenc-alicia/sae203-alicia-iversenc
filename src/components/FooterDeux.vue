@@ -37,11 +37,12 @@
       <a class="px-2" href="https://www.youtube.com/"><YoutubeFooter /></a>
     </div>
     <div class="mx-auto grid grid-cols-2 gap-x-10 gap-y-2 text-left font-medium">
-      <a href="../views/Programmation">Programmation</a>
-      <a href="../views/Festival">Festival</a>
-      <a href="../views/Artistes">Artistes</a>
-      <a href="../views/Contact">Contact</a>
-      <a href="../views/MentionsLegales">Mentions légales</a>
+      <a href="./Programmation">Programmation</a>
+      <a href="./Festival">Festival</a>
+      <a href="./Artistes">Artistes</a>
+      <a href="./Contact">Contact</a>
+      <a href="./MentionsLegales">Mentions légales</a>
+      <a href="./GuideDeStyle">Guide de style</a>
     </div>
   </div>
 </template>

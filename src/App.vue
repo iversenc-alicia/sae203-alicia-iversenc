@@ -23,7 +23,7 @@ export default {
   </main>
 
   <footer>
-    <footer-deux class="lg:hidden" />
+    <footer-deux class="sm:hidden" />
     <Footer class="hidden sm:flex" />
   </footer>
 </template>

@@ -7,6 +7,7 @@ import Contact from '../views/Contact.vue'
 import Festival from '../views/Festival.vue'
 import MentionsLegales from '../views/MentionsLegales.vue'
 import Programmation from '../views/Programmation.vue'
+import Guide from '../views/GuideDeStyle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/Festival', name: 'Festival', component: Festival },
     { path: '/MentionsLegales', name: 'MentionsLegales', component: MentionsLegales },
     { path: '/Programmation', name: 'Programmation', component: Programmation },
+    { path: '/GuideDeStyle', name: 'GuideDeStyle', component: Guide },
 
 
   ]
