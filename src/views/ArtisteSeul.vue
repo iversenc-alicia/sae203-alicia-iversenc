@@ -29,11 +29,44 @@
     <a href="https://www.youtube.com/watch?v=SpIgOm5vFkE/" target="_blank"
       ><img src="/img/youtube.webp" border="0" alt="apperçu vidéo Youtube" class="mx-auto mt-20 w-3/4"
     /></a>
-
-    <div class="mx-auto mt-20 grid w-10/12 grid-cols-1 lg:grid-cols-3">
-      <img class="p-3" src="/img/martin-1.webp" alt="" />
-      <img class="p-3" src="/img/martin-2.webp" alt="" />
-      <img class="p-3" src="/img/martin-3.webp" alt="" />
+  </div>
+  <h2 class="my-14 ml-10 mt-14 text-4xl font-bold">Voir les artistes similaires</h2>
+  <div class="relative flex w-full snap-x overflow-x-auto pb-14">
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-1.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-2.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-3.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-4.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-5.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-6.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-7.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-8.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-9.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-10.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-11.png" alt="image concert" />
+    </div>
+    <div class="w-1/2 shrink-0 rounded-lg shadow-xl">
+      <img src="/img/card-artiste-12.png" alt="image concert" />
     </div>
   </div>
 </template>

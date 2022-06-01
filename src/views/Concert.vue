@@ -25,12 +25,27 @@
     <img class="p-3" src="/public/img/martin-3.webp" alt="" />
     <img class="p-3" src="/public/img/martin-1.webp" alt="" />
   </div>
+
+  <div class="mx-auto mt-20 grid w-10/12 grid-cols-1 gap-10 lg:grid-cols-3">
+    <img class="p-3" src="/img/martin-1.webp" alt="martin garrix" />
+    <img class="p-3" src="/img/martin-2.webp" alt="martin garrix" />
+    <img class="p-3" src="/img/martin-3.webp" alt="martin garrix" />
+  </div>
+  <div>
+    <h2 class="ml-10 mb-8 mt-14 text-4xl font-bold">Le même jour</h2>
+    <div class="grid grid-cols-1 justify-items-center sm:grid-cols-3">
+      <a href="./ArtisteSeul"><card-rose nom="Gabry Ponte" scene="Scène Flottante" heure="14h30" image="/img/gabryponte-fone.webp" /></a>
+      <a href="./ArtisteSeul"><card-rose nom="DJ Snake" scene="Scène Plage" heure="20h30" image="/img/djsnake-fonce.webp" /></a>
+      <a href="./ArtisteSeul"><card-rose nom="Showtek" scene="Scène Flottante" heure="20h30" image="/img/showtek-fonce.webp" /></a>
+    </div>
+  </div>
 </template>
 
 <script>
 import Baniere from "/src/components/Baniere.vue";
 import InfoConcert from "/src/components/cards/InfoConcert.vue";
+import CardRose from "/src/components/cards/CardRose.vue";
 export default {
-  components: { Baniere, InfoConcert },
+  components: { Baniere, InfoConcert, CardRose },
 };
 </script>

@@ -14,7 +14,7 @@
     <div class="mx-10 grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <a href="./ArtisteSeul"><card-rose nom="Timmy Trumpet" scene="Scène Plage" heure="14h30" image="/img/timmytrumpet-fonce.webp" /></a>
       <a href="./ArtisteSeul"><card-rose nom="Joel Corry" scene="Scène Flottante" heure="14h30" image="/img/joelcorry-fonce.webp" /></a>
-      <a href="./ArtisteSeul"><card-rose nom="Don Diablo" scene="Scène Plage" heure="20h30" image="/img/djsnake-fonce.webp" /></a>
+      <a href="./ArtisteSeul"><card-rose nom="Don Diablo" scene="Scène Plage" heure="20h30" image="/img/dondiablo-fonce.webp" /></a>
       <a href="./ArtisteSeul"><card-rose nom="Sikdope" scene="Scène Flottante" heure="20h30" image="/img/sikdope-fonce.webp" /></a>
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Dimanche 10 Juillet</h2>
