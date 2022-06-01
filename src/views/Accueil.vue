@@ -54,7 +54,13 @@
     <a href="./Programmation"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute la programmation"> </bouton></a>
 
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <h2 class="mx-auto mb-10 text-4xl font-bold lg:my-auto">Découvrir le festival</h2>
+      <div>
+        <h2 class="sm mx-auto mb-5 text-4xl font-bold lg:my-auto">Découvrir le festival</h2>
+        <p class="mb-5 mt-5">
+          Pour l’édition de l’été 2022, Electro Bancal débarque avec 12 artistes exceptionnels. Le lieu où se déroule ce festival est le lac
+          de la Bancalié pour rendre l’expérience plus singulière.
+        </p>
+      </div>
       <img src="/public/img/accueil-tagline.webp" alt="" />
     </div>
     <a href="./Festival"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute le concept"> </bouton></a>

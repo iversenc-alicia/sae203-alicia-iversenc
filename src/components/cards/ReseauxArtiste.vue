@@ -16,7 +16,9 @@
             fill="#DB2777"
           ></path>
         </svg>
-        <p class="w-[125px] flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">Martin Garrix</p>
+        <a href="https://fr-fr.facebook.com/martin.garrix">
+          <p class="w-[125px] flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">Martin Garrix</p></a
+        >
       </div>
       <div class="relative flex h-9 flex-shrink-0 flex-grow-0 items-center justify-center gap-3.5">
         <svg
@@ -33,7 +35,9 @@
             fill="#DB2777"
           ></path>
         </svg>
-        <p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">@martingarrix</p>
+        <a href="https://twitter.com/martingarrixhub?lang=fr">
+          <p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold">@martingarrix</p></a
+        >
       </div>
       <div class="relative flex h-9 flex-shrink-0 flex-grow-0 items-center justify-center gap-3.5">
         <svg
@@ -50,7 +54,9 @@
             fill="#DB2777"
           ></path>
         </svg>
-        <p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">@martingarrix</p>
+        <a href="https://www.instagram.com/martingarrix/">
+          <p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">@martingarrix</p></a
+        >
       </div>
       <div class="relative flex h-9 flex-shrink-0 flex-grow-0 items-center justify-center gap-3.5">
         <svg
@@ -78,7 +84,9 @@
             </clipPath>
           </defs>
         </svg>
-        <p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">martingarrix.com</p>
+        <a href="https://martingarrix.com/"
+          ><p class="flex-shrink-0 flex-grow-0 text-left text-base font-bold text-gray-50">martingarrix.com</p></a
+        >
       </div>
     </div>
   </div>
