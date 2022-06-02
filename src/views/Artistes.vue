@@ -36,7 +36,7 @@
     </div>
   </main>
 
-  <a class="my-20 ml-6 flex justify-end text-2xl font-semibold" href="./Programmation">→ Voir toute la programmation</a>
+  <a class="mr-10 ml-10 mt-10 flex justify-end text-2xl font-semibold" href="./Programmation">→ Voir toute la programmation</a>
 </template>
 
 <script>
