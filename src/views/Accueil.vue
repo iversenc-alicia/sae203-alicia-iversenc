@@ -68,12 +68,11 @@
 </template>
 
 <script>
-import ProgrammeArtistes from "/src/components/ProgrammeArtistes.vue";
 import CardRose from "/src/components/cards/CardRose.vue";
 import Bouton from "/src/components/Bouton.vue";
 import Baniere from "/src/components/Baniere.vue";
 import HeaderGrand from "/src/components/HeaderGrand.vue";
 export default {
-  components: { CardRose, ProgrammeArtistes, Bouton, Baniere, HeaderGrand },
+  components: { CardRose, Bouton, Baniere, HeaderGrand },
 };
 </script>

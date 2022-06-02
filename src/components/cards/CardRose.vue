@@ -7,6 +7,7 @@ export default {
     scene: String,
     heure: String,
     image: String,
+    date: String,
   },
   components: {},
 };
@@ -22,6 +23,7 @@ export default {
           </div>
           <figcaption class="p-4 text-center">
             <h3 class="py-1 text-2xl font-semibold">{{ nom }}</h3>
+            <h4 class="py-1 text-xl">{{ date }}</h4>
             <h4 class="py-1 text-xl">{{ heure }}</h4>
             <p class="py-1 text-base">{{ scene }}</p>
           </figcaption>
