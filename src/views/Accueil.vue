@@ -9,9 +9,9 @@
         <h2 class="text-4xl font-bold">3 jours</h2>
         <h2 class="text-4xl font-bold">2 scènes</h2>
       </div>
-      <img src="/public/img/martingarrix-clair.webp" class="flex-grow self-stretch object-cover" />
-      <img src="/public/img/djsnake-clair.webp" class="flex-grow self-stretch object-cover" />
-      <img src="/public/img/marshmello-clair.webp" class="flex-grow self-stretch object-cover" />
+      <img src="/img/martingarrix-clair.webp" class="flex-grow self-stretch object-cover" />
+      <img src="/img/djsnake-clair.webp" class="flex-grow self-stretch object-cover" />
+      <img src="/img/marshmello-clair.webp" class="flex-grow self-stretch object-cover" />
     </div>
     <a href="./Artistes"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir tous les artistes"> </bouton></a>
 

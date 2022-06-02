@@ -9,6 +9,7 @@ import MentionsLegales from '../views/MentionsLegales.vue'
 import Programmation from '../views/Programmation.vue'
 import Guide from '../views/GuideDeStyle.vue'
 import NotFoundComponent from '../views/404.vue'
+import Propositions from '../views/Propositions.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,9 +23,8 @@ const router = createRouter({
     { path: '/MentionsLegales', name: 'MentionsLegales', component: MentionsLegales },
     { path: '/Programmation', name: 'Programmation', component: Programmation },
     { path: '/GuideDeStyle', name: 'GuideDeStyle', component: Guide },
-    { path: '/:pathMatch(.*)', component: NotFoundComponent }
-
-
+    { path: '/:pathMatch(.*)', component: NotFoundComponent },
+    { path: '/Propositions', name: 'Propositions', component: Propositions },
 
   ]
 })
