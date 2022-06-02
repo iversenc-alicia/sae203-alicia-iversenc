@@ -1,7 +1,4 @@
-
-
-
- <template>
+<template>
   <div>
     <main aria-labelledby="pageTitle" class="t flex h-screen items-center justify-center">
       <div class="space-y-4 p-4">

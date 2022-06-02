@@ -1,7 +1,6 @@
 <template>
-  <header>
-    <baniere page="Mentions légales" />
-  </header>
+  <baniere page="Mentions légales" />
+
   <div class="mx-5 flex flex-col items-center gap-10 sm:mx-24 lg:mx-40">
     <h2 class="text-3xl font-semibold">Mentions légales</h2>
     <p>

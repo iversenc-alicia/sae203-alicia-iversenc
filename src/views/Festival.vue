@@ -1,7 +1,7 @@
 <template>
-  <header>
+
     <baniere page="Le festival" />
-  </header>
+
 
   <h2 class="mb-10 ml-8 text-4xl font-bold">A propos de l'Electro Bancal</h2>
   <div class="mx-10">

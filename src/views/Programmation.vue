@@ -1,7 +1,5 @@
 <template>
-  <header>
-    <baniere page="Programmation" />
-  </header>
+  <baniere page="Programmation" />
   <main class="justify-items-center">
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Vendredi 8 Juillet</h2>
     <div class="grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">

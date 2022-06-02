@@ -1,7 +1,7 @@
 <template>
-  <header>
+ 
     <baniere page="Contact" />
-  </header>
+
   <h2 class="mb-7 ml-7 text-4xl font-bold">Vous souhaitez contacter Electro Bancal ?</h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2">

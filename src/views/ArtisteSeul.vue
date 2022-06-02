@@ -1,8 +1,8 @@
 <template>
   <div>
-    <header>
+   
       <img class="mx-auto w-3/4" src="/img/martingarrix-clair.webp" alt="Martin Garrix" />
-    </header>
+  
 
     <div class="mx-auto mt-10 grid w-3/4 grid-cols-1 sm:grid-cols-2">
       <div class="mx-auto content-center">
