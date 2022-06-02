@@ -37,11 +37,12 @@
       <a href="https://www.youtube.com/"><YoutubeFooter /></a>
     </div>
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/Programmation">Programmation</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/Festival">Festival</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/Artistes">Artistes</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/Contact">Contact</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-white" href="../views/MentionsLegales">Mentions légales</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Programmation">Programmation</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Festival">Festival</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Artistes">Artistes</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Contact">Contact</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./MentionsLegales">Mentions légales</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./GuideDeStyle">Style Guide</a>
     </div>
   </div>
 </template>

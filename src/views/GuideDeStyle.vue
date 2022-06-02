@@ -20,15 +20,17 @@
     </div>
   </div>
   <h1 class="mt-10 text-2xl font-semibold">Composants</h1>
-  <div class="grid grid-cols-7">
-    <card-rose nom="Marshmello" scene="39 040 156 auditeurs par mois" image="/img/marshmello-fonce.webp" />
+  <div class="grid grid-cols-1 items-center lg:grid-cols-2">
+    <card-rose-2 nom="Marshmello" ecoutes="39 040 156 auditeurs par mois" photo="/img/marshmello-fonce.webp" />
+    <card-rose nom="Marshmello" scene="Scène Flottante" date="2022-07-09" heure="14:30" photo="/img/marshmello-fonce.webp" />
   </div>
 </template>
 
 <script>
 import Baniere from "../components/Baniere.vue";
 import CardRose from "../components/cards/CardRose.vue";
+import CardRose2 from "../components/cards/CardRose2.vue";
 export default {
-  components: { Baniere, CardRose },
+  components: { Baniere, CardRose, CardRose2 },
 };
 </script>
