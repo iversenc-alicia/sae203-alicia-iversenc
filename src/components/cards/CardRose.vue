@@ -6,7 +6,7 @@ export default {
     nom: String,
     scene: String,
     heure: String,
-    image: String,
+    photo: String,
     date: String,
   },
   components: {},
@@ -19,7 +19,7 @@ export default {
       <div class="block">
         <div class="flex flex-col">
           <div class="p-4">
-            <img class="aspect-video w-full object-cover" :src="image" alt="artiste" />
+            <img class="aspect-video w-full object-cover" :src="photo" alt="artiste" />
           </div>
           <figcaption class="p-4 text-center">
             <h3 class="py-1 text-2xl font-semibold">{{ nom }}</h3>

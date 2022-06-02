@@ -5,57 +5,109 @@
   <main class="justify-items-center">
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Vendredi 8 Juillet</h2>
     <div class="grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Martin Garrix" date="2022-07-08" scene="Scène Plage" heure="14h30" image="/img/martingarrix-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Gabry Ponte" date="2022-07-08" scene="Scène Flottante" heure="14h30" image="/img/gabryponte-fone.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="DJ Snake" date="2022-07-08" scene="Scène Plage" heure="20h30" image="/img/djsnake-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Showtek" date="2022-07-08" scene="Scène Flottante" heure="20h30" image="/img/showtek-fonce.webp"
-      /></a>
+      <RouterLink to="/Concert" v-for="con in Jour1" :key="con"
+        ><card-rose :nom="con.nom" :photo="con.photo" :date="con.date" :heure="con.heure" :scene="con.scene"
+      /></RouterLink>
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Samedi 9 Juillet</h2>
     <div class="mx-10 grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Timmy Trumpet" date="2022-07-09" scene="Scène Plage" heure="14h30" image="/img/timmytrumpet-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Joel Corry" date="2022-07-09" scene="Scène Flottante" heure="14h30" image="/img/joelcorry-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Don Diablo" date="2022-07-09" scene="Scène Plage" heure="20h30" image="/img/dondiablo-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Sikdope" date="2022-07-09" scene="Scène Flottante" heure="20h30" image="/img/sikdope-fonce.webp"
-      /></a>
+      <RouterLink to="/Concert" v-for="con in Jour2" :key="con"
+        ><card-rose :nom="con.nom" :photo="con.photo" :date="con.date" :heure="con.heure" :scene="con.scene"
+      /></RouterLink>
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">Dimanche 10 Juillet</h2>
     <div class="mx-10 grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-      <a href="./ArtisteSeul"><card-rose nom="KSHMR" date="2022-07-10" scene="Scène Plage" heure="14h30" image="/img/kshmr-fonce.jpg" /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Marshmello" date="2022-07-10" scene="Scène Flottante" heure="14h30" image="/img/marshmello-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Mike Candys" date="2022-07-10" scene="Scène Plage" heure="20h30" image="/img/mikecandys-fonce.webp"
-      /></a>
-      <a href="./ArtisteSeul"
-        ><card-rose nom="Nicky Romero" date="2022-07-10" scene="Scène Flottante" heure="20h30" image="/img/nickyromero-fonce.webp"
-      /></a>
+      <RouterLink to="/Concert" v-for="con in Jour3" :key="con"
+        ><card-rose :nom="con.nom" :photo="con.photo" :date="con.date" :heure="con.heure" :scene="con.scene"
+      /></RouterLink>
     </div>
   </main>
 
   <a class="my-20 mr-6 flex justify-end text-2xl font-semibold" href="./Artistes">→ Voir tous les artistes</a>
 </template>
 
+
 <script>
 import CardRose from "../components/cards/CardRose.vue";
 import Baniere from "/src/components/Baniere.vue";
+import {
+  getFirestore,
+  collection,
+  doc,
+  query,
+  orderBy,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+import {
+  getStorage, // Obtenir le Cloud Storage
+  ref, // Pour créer une référence à un fichier à uploader
+  getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
+  uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
 
 export default {
-  components: { CardRose, Baniere },
+  components: {
+    Baniere,
+    CardRose,
+  },
+  data() {
+    return {
+      listeConcerts: [],
+      qJour1: 1,
+      qJour2: 2,
+      qJour3: 3,
+    };
+  },
+  mounted() {
+    this.getConcerts();
+  },
+  methods: {
+    async getConcerts() {
+      const firestore = getFirestore();
+      const dbCon = collection(firestore, "Concerts");
+      const q = query(dbCon, orderBy("nom", "asc"));
+      await onSnapshot(q, (snapshot) => {
+        this.listeConcerts = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeConcerts.forEach(function (personne) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "concerts/" + personne.photo);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              personne.photo = url;
+            })
+            .catch((error) => {
+              console.log("erreur download url", error);
+            });
+        });
+      });
+    },
+  },
+  computed: {
+    Jour1() {
+      let query = this.qJour1;
+      return this.listeConcerts.filter(function (con) {
+        return con.jour.includes(query);
+      });
+    },
+    Jour2() {
+      let query = this.qJour2;
+      return this.listeConcerts.filter(function (con) {
+        return con.jour.includes(query);
+      });
+    },
+    Jour3() {
+      let query = this.qJour3;
+      return this.listeConcerts.filter(function (con) {
+        return con.jour.includes(query);
+      });
+    },
+  },
 };
 </script>
