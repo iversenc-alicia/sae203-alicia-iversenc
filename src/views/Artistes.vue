@@ -22,7 +22,7 @@
     </div>
     <h2 class="ml-10 mb-8 mt-14 text-4xl">A ne pas rater</h2>
     <div class="mx-auto grid grid-cols-1 justify-items-center gap-y-20 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-      <a href="./ArtisteSeul"><card-rose-2 nom="Don Diablo" ecoutes="6 938 751 auditeurs par mois" image="/img/djsnake-fonce.webp" /></a>
+      <a href="./ArtisteSeul"><card-rose-2 nom="Don Diablo" ecoutes="6 938 751 auditeurs par mois" image="/img/dondiablo-fonce.webp" /></a>
       <a href="./ArtisteSeul"><card-rose-2 nom="Sikdope" ecoutes="685 173 auditeurs par mois" image="/img/sikdope-fonce.webp" /></a>
       <a href="./ArtisteSeul"><card-rose-2 nom="KSHMR" ecoutes="6 885 032 auditeurs par mois" image="/img/kshmr-fonce.jpg" /></a>
 
