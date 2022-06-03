@@ -20,7 +20,7 @@
       <div class="h-10 w-40 rounded-r-lg bg-gray-50"></div>
     </div>
   </div>
-  <h1 class="font-semiboldtext-center mt-10 text-center text-2xl">Composants</h1>
+  <h1 class="font-semiboldtext-center mx-5 mt-10 text-center text-2xl">Composants</h1>
   <div class="justify-item-center mx-auto grid grid-cols-1 lg:grid-cols-2">
     <card-rose-2 nom="Marshmello" ecoutes="39 040 156 auditeurs par mois" photo="/img/marshmello-fonce.webp" />
     <card-rose nom="Marshmello" scene="Scène Flottante" date="2022-07-09" heure="14:30" photo="/img/marshmello-fonce.webp" />

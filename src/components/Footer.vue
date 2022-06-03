@@ -37,8 +37,8 @@
       <a href="https://www.youtube.com/"><YoutubeFooter /></a>
     </div>
     <div class="grid grid-cols-4 gap-8">
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Programmation">Programmation</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Festival">Festival</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Programmation">Programmation</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Festival">Festival</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Artistes">Artistes</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Contact">Contact</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./MentionsLegales">Mentions légales</a>
