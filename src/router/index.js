@@ -10,6 +10,10 @@ import Programmation from '../views/Programmation.vue'
 import Guide from '../views/GuideDeStyle.vue'
 import NotFoundComponent from '../views/404.vue'
 import Propositions from '../views/Propositions.vue'
+import PropositionsArtistes from '../views/PropositionsArtistes.vue'
+import CreateArtistefav from '../views/PropositionsArtistes/CreateArtistefav.vue'
+import DeleteView from '../views/PropositionsArtistes/DelateArtistefav.vue'
+import UpdateView from '../views/PropositionsArtistes/UpdateArtistefav.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +29,11 @@ const router = createRouter({
     { path: '/GuideDeStyle', name: 'GuideDeStyle', component: Guide },
     { path: '/:pathMatch(.*)', component: NotFoundComponent },
     { path: '/Propositions', name: 'Propositions', component: Propositions },
+    { path: '/propositionsartistes', name: 'PropositionsArtistes', component: PropositionsArtistes },
+    { path: '/create', name: 'createartistefav', component: CreateArtistefav },
+    { path: '/Delete/:id', name: 'Delete', component: DeleteView },
+    { path: '/Update/:id', name: 'Update', component: UpdateView },
+
 
   ]
 })
