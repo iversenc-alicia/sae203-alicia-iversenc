@@ -61,7 +61,7 @@
           de la Bancalié pour rendre l’expérience plus singulière.
         </p>
       </div>
-      <img src="/public/img/accueil-tagline.webp" alt="" />
+      <img src="/public/img/accueil-tagline.webp" alt="danser jusqu'à être bancal" />
     </div>
     <a href="./Festival"><bouton class="mr-auto mt-5 mb-10" nom="Découvrir toute le concept"> </bouton></a>
   </main>

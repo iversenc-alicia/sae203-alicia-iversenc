@@ -20,10 +20,10 @@
   </div>
 
   <div class="mx-auto mt-20 grid w-10/12 grid-cols-2">
-    <img class="p-3" src="/img/martin-1.webp" alt="" />
-    <img class="p-3" src="/img/martin-2.webp" alt="" />
-    <img class="p-3" src="/img/martin-3.webp" alt="" />
-    <img class="p-3" src="/img/martin-1.webp" alt="" />
+    <img class="p-3" src="/img/martin-1.webp" alt="image martin garrix" />
+    <img class="p-3" src="/img/martin-2.webp" alt="image martin garrix" />
+    <img class="p-3" src="/img/martin-3.webp" alt="image martin garrix" />
+    <img class="p-3" src="/img/martin-1.webp" alt="image martin garrix" />
   </div>
 
   <div class="mx-auto mt-20 grid w-10/12 grid-cols-1 gap-10 lg:grid-cols-3">

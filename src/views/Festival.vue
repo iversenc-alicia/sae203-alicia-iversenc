@@ -35,12 +35,12 @@
   <div class="grids-cols-1 mx-10 grid sm:grid-cols-2">
     <div>
       <h3 class="mt-5 mb-5 text-center text-2xl">Scène Plage (scène terrestre)</h3>
-      <img class="" src="/public/img/festival-terrestre.webp" alt="" />
+      <img class="" src="/public/img/festival-terrestre.webp" alt="scene terrestre" />
     </div>
 
     <div>
       <h3 class="mx-auto mt-5 mb-5 text-center text-2xl">Scène Flottante (scène aquatique)</h3>
-      <img class="" src="/public/img/festival-flottant.webp" alt="" />
+      <img class="" src="/public/img/festival-flottant.webp" alt="scene flottante" />
     </div>
   </div>
 </template>
