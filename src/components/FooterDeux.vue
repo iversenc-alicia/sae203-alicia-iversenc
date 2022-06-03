@@ -43,6 +43,8 @@
       <a href="./Contact">Contact</a>
       <a href="./MentionsLegales">Mentions légales</a>
       <a href="./GuideDeStyle">Guide de style</a>
+      <a href="./PropositionsArtistes">Vos artistes</a>
+      <a href="./Propositions">Vos genres musicaux</a>
     </div>
   </div>
 </template>

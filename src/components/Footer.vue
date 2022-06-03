@@ -43,6 +43,8 @@
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Contact">Contact</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./MentionsLegales">Mentions légales</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./GuideDeStyle">Style Guide</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./PropositionsArtistes">Vos artistes</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Propositions">Vos genres musicaux</a>
     </div>
   </div>
 </template>
