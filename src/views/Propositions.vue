@@ -9,7 +9,7 @@
   </div>
   <h3 class="ml-10 mb-8 mt-14 text-xl">Liste des genres déjà existants</h3>
 
-  <div class="flew-wrap mx-auto flex w-4/5 gap-1" v-for="genre in listeGenre" :key="genre">
+  <div class="mx-auto flex w-4/5 flex-wrap gap-1" v-for="genre in listeGenre" :key="genre">
     <button type="button" @click.prevent="updateGenre(genre)"><RefreshIcon class="w-7" /></button>
     <input
       class="rounded-md bg-gradient-to-b from-pink-600 to-gray-950"
