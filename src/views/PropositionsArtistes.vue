@@ -5,8 +5,8 @@
     <div to="/Artiste" v-for="art in listeArtistefav" :key="art">
       <card-3 :id="art.id" :nom="art.nom" :image="art.image"></card-3>
     </div>
-    <RouterLink to="Create"><PlusCircleIcon class="text-gray-500" /></RouterLink>
   </div>
+  <RouterLink to="Create"><PlusCircleIcon class="mx-auto w-2/6 text-white" /></RouterLink>
 </template>
 
 <script>

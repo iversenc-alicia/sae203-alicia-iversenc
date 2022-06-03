@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto w-1/2">
+  <div class="mx-auto mt-24 w-1/2">
     <form @submit.prevent="updateArtistefav">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <div class="grid place-items-center">
@@ -7,12 +7,12 @@
         </div>
         <div class="grid grid-cols-1 gap-14">
           <div class="flex h-10 rounded-sm">
-            <div class="flex items-center justify-center rounded-sm bg-cyan-600 px-5">Nom</div>
+            <div class="flex items-center justify-center rounded-sm bg-gradient-to-b from-pink-600 to-gray-950 px-5">Nom</div>
             <input class="w-full bg-gray-50 pl-2 text-black" type="text" placeholder="Nom de l'artiste" v-model="artistefav.nom" required />
           </div>
 
           <div class="flex h-10 overflow-hidden rounded-sm text-black">
-            <div class="flex items-center justify-center bg-cyan-600 px-5">Photo</div>
+            <div class="flex items-center justify-center bg-gradient-to-b from-pink-600 to-gray-950 px-5 text-white">Photo</div>
             <div class="relative w-full">
               <input type="file" class="relative w-full rounded-sm bg-gray-50 pl-2" ref="file" id="file" @change="previewImage" />
               <label class="absolute left-0 top-0 bottom-0 flex w-full items-center justify-center bg-slate-100 pl-2" for="file"

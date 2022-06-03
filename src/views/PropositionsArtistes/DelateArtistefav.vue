@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col justify-center">
+  <div class="mx-10 mt-20 flex-col justify-center">
     <form @submit.prevent="deleteArtistefav">
       <div class="grid grid-cols-1 gap-4">
         <div class="grid place-items-center">
