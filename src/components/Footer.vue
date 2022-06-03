@@ -29,14 +29,14 @@
         </div>
       </div>
     </div>
-    <Logo />
+    <img class="max-w-xs" src="/public/img/Logo.png" alt="" />
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-[50px]">
       <a href="https://open.spotify.com/"><SpotifyFooter /></a>
       <a href="https://www.instagram.com/"><InstagramFooter /></a>
       <a href="https://www.facebook.com/"><FacebookFooter /></a>
       <a href="https://www.youtube.com/"><YoutubeFooter /></a>
     </div>
-    <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
+    <div class="grid grid-cols-4 gap-8">
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Programmation">Programmation</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href=".Festival">Festival</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium" href="./Artistes">Artistes</a>

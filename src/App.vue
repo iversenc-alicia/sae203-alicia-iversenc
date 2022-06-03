@@ -22,8 +22,8 @@ export default {
   </main>
 
   <footer>
-    <footer-deux class="xl:hidden" />
-    <Footer class="hidden xl:flex" />
+    <footer-deux class="lg:hidden" />
+    <Footer class="hidden lg:flex" />
   </footer>
 </template>
 
