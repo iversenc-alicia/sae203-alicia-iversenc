@@ -1,14 +1,17 @@
 <template>
-  <div class="grid grid-cols-1 gap-8 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  <baniere page="Vos artistes préférés" />
+  <h2 class="mb-10 ml-8 mt-10 text-4xl font-bold">Vos artistes préférés</h2>
+  <div class="grid grid-cols-1 justify-items-center gap-8 p-10 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
     <div to="/Artiste" v-for="art in listeArtistefav" :key="art">
       <card-3 :id="art.id" :nom="art.nom" :image="art.image"></card-3>
     </div>
-    <RouterLink to="Create"><PlusCircleIcon /></RouterLink>
+    <RouterLink to="Create"><PlusCircleIcon class="text-gray-500" /></RouterLink>
   </div>
 </template>
 
 <script>
 import Card3 from "../components/cards/Card3.vue";
+import Baniere from "../components/Baniere.vue";
 import { TrashIcon, PencilAltIcon, PlusCircleIcon } from "@heroicons/vue/outline";
 import {
   getFirestore,
@@ -35,6 +38,7 @@ export default {
     TrashIcon,
     PencilAltIcon,
     PlusCircleIcon,
+    Baniere,
   },
   data() {
     return {

@@ -1,25 +1,25 @@
 <template>
-  <h2>Ajouter un artiste</h2>
+  <h2 class="ml-10 mb-8 mt-14 text-4xl">Ajouter un artiste</h2>
   <form @submit.prevent="createArtiste">
     <img :src="imageData" class="w-1/2" />
-    <div class="">
-      <div class="flex h-10 w-1/2 overflow-hidden rounded-sm">
-        <div class="flex items-center justify-center from-pink-600 to-gray-950 px-5 text-gray-50">Nom</div>
-        <input class="w-1/2 bg-slate-100 pl-2" type="text" placeholder="Nom de l'artistefav" v-model="artistefav.nom" required />
+    <div class="ml-10 sm:ml-20">
+      <div class="mb-10 flex h-10 justify-items-center">
+        <div class="text-n m flex items-center justify-center bg-gradient-to-b from-pink-600 to-gray-950 px-5">Nom</div>
+        <input class="w-1/2 bg-slate-100 pl-2 text-black" type="text" placeholder="Nom de l'artiste" v-model="artistefav.nom" required />
       </div>
       <div class="flex h-10 overflow-hidden rounded-sm">
-        <div class="flex items-center justify-center border-[1px] from-pink-600 to-gray-950 px-5 text-gray-50">Photo</div>
         <div class="relative w-full">
           <input type="file" class="relative w-full" ref="file" id="file" @change="previewImage" />
-          <label class="text-gray absolute left-0 top-0 bottom-0 flex w-1/2 items-center justify-center bg-gray-50 pl-2" for="file"
-            >Sélectionner l'image</label
-          >
         </div>
       </div>
     </div>
-    <div class="grid w-full grid-cols-2 place-items-center">
-      <button type="button" @click.prevent="createArtistefav(artistefav)">Ajouter</button>
-    </div>
+    <button
+      class="ml-10 mt-10 rounded-sm bg-gray-50 px-5 py-3 text-black sm:ml-20"
+      type="button"
+      @click.prevent="createArtistefav(artistefav)"
+    >
+      Ajouter
+    </button>
   </form>
 </template>
 
